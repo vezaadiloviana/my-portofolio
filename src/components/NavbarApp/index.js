@@ -29,12 +29,12 @@ const NavbarApp = () => {
 
         <div className='flex gap-5 items-center'>
           <a className='font-medium hover:underline' href="#home">Home</a>
-          <a className='font-medium hover:underline' href="#home">About</a>
-          <a className='font-medium hover:underline' href="#home">Skills</a>
-          <a className='font-medium hover:underline' href="#home">Portofolio</a>
-          <a className='font-medium hover:underline' href="#home">Experiences</a>
-          <a className='font-medium hover:underline' href="#home">Achievement</a>
-          <a className='font-medium hover:underline' href="#home">Contact</a>
+          <a className='font-medium hover:underline' href="#about">About</a>
+          <a className='font-medium hover:underline' href="#skills">Skills</a>
+          <a className='font-medium hover:underline' href="#portofolio">Portofolio</a>
+          <a className='font-medium hover:underline' href="#experiences">Experiences</a>
+          <a className='font-medium hover:underline' href="#achievement">Achievement</a>
+          <a className='font-medium hover:underline' href="#contact">Contact</a>
         </div>
 
         <div>
