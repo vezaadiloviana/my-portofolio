@@ -9,7 +9,7 @@ function Home() {
         <NavbarApp/>
         <Jumbotron />
         <div className='p-10'>
-            <About />
+            <About /> 
         </div>
     </div>
   )
