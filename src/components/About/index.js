@@ -1,13 +1,11 @@
 import React from "react";
 import codingBoy from '../../assets/img/coding-boy.png';
+import Title from "../Title";
 
 const About = () => {
   return (
     <div id="about">
-      <div className="text-2xl md:text-3xl font-bold mb-5">
-        <h1 className="text-yellow-500 dark:text-secondaryYellow">Know</h1>
-        <h1 className="text-primaryBlue dark:text-white underline">About Me</h1>
-      </div>
+      <Title title={"Know"} subTitle={"About Me"}/>
       <div className="flex flex-col md:grid grid-cols-2 gap-10 items-center">
         <div className="md:-mt-5">
           <h1 className="text-black dark:text-white text-3xl md:text-4xl font-bold underline mb-5">Front End Developer</h1>        
